@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="ASSETS/CSS/style.css" />
+    <link rel="shortcut icon" href="ASSETS/MEDIA/libro.jpeg" />
+    <title>Registrazione Libri</title>
+  </head>
+  <body>
+    <main>
+      <h1>REGISTRAZIONE LIBRI</h1>
+      <form action="">
+        <section class="formRow">
+          <label for="titolo">Titolo*:</label>
+          <input
+            type="text"
+            name="titolo"
+            id="titolo"
+            class="daValidare"
+            autofocus
+          />
+          <span class="error"></span>
+        </section>
+        <section class="formRow">
+          <label for="autore">Autore*:</label>
+          <input type="text" name="autore" id="autore" class="daValidare" />
+          <span class="error"></span>
+        </section>
+        <section class="formRow">
+          <label for="codice">Codice*:</label>
+          <input type="text" name="codice" id="codice" class="daValidare" />
+          <span class="error"></span>
+          <p id="esito" class="error"></p>
+        </section>
+        <section class="formRow">
+          <label for="genere">Genere:</label>
+          <select name="genere" id="genere">
+            <option value="">Seleziona il genere</option>
+            <option value="Romanzo">Romanzo</option>
+            <option value="Thriller">Thriller</option>
+            <option value="Storico">Storico</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Biografia">Biografia</option>
+          </select>
+        </section>
+        <section class="formRow">
+          <input type="submit" value="Registra" class="btn registra" />
+          <input type="reset" value="Svuota campi" class="btn reset" />
+          <button type="button" id="deleteAll" class="btn">
+            Rimuovi tutti i libri
+          </button>
+          <!-- Se non specifico il type='button' all'interno di un form, è considerato un submit -->
+        </section>
+      </form>
+      <table>
+        <caption>
+          Libri registrati
+        </caption>
+        <thead>
+          <tr>
+            <th>Titolo</th>
+            <th>Autore</th>
+            <th>Genere</th>
+            <th>Codice</th>
+            <th>Azioni</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </main>
+    <!-- FINE CODICE -->
+    <script src="ASSETS/JS/main.js"></script>
+  </body>
+</html>

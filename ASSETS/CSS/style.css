@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: block;
+  justify-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: aliceblue;
+  padding: 30px;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+form .formRow {
+  padding: 7px 15px;
+  /* margin-bottom: 10px; */
+}
+
+.error {
+  color: red;
+  font-size: small;
+  font-weight: bold;
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+table {
+  margin: 15px;
+}
+
+td {
+  word-wrap: break-word;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+table caption {
+  font-size: x-large;
+  font-weight: bold;
+  padding: 10px;
+}
+
+/*FORM*/
+form {
+  max-width: 500px;
+  padding: 20px;
+  /* margin: 20px 0; */
+  background: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.sfondoCampoFocus {
+  background-color: #5899f3;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #fff;
+}
+
+button:hover {
+  background-color: #f76d47;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.reset:hover {
+  background-color: #9faab3;
+}
+
+.registra:hover {
+  background-color: #58f386;
+}
