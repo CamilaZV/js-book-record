@@ -81,15 +81,6 @@ eliminaTutto.addEventListener('click', () => {
   form.titolo.focus();
 });
 
-for (const campo of inputs) {
-  campo.addEventListener.add('focus', () => {
-    campo.classList.add('sfondoCampoFocus');
-  });
-  campo.addEventListener.add('blur', () => {
-    campo.classList.remove('sfondoCampoFocus');
-  });
-}
-
 //ALTRE FUNZIONI
 function validaCampo(campo) {
   let msg = '';

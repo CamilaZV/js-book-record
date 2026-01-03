@@ -12,6 +12,11 @@ body {
   padding: 30px;
 }
 
+main {
+  display: flex;
+  gap: 150px;
+}
+
 h1 {
   text-align: center;
   padding-bottom: 20px;
@@ -19,13 +24,17 @@ h1 {
 
 form .formRow {
   padding: 7px 15px;
-  /* margin-bottom: 10px; */
+  margin-bottom: 10px;
 }
 
 .error {
   color: red;
   font-size: small;
   font-weight: bold;
+}
+
+.table-container {
+  margin-top: 30px;
 }
 
 table,
@@ -75,10 +84,6 @@ form {
   border-radius: 8px;
 }
 
-.sfondoCampoFocus {
-  background-color: #5899f3;
-}
-
 input,
 select,
 button {
@@ -92,7 +97,7 @@ button {
 }
 
 button:hover {
-  background-color: #f76d47;
+  background-color: #fba087;
 }
 
 .btn:hover {
@@ -104,5 +109,5 @@ button:hover {
 }
 
 .registra:hover {
-  background-color: #58f386;
+  background-color: #a1fabb;
 }
